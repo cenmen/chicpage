@@ -44,12 +44,12 @@ export default function RootLayout({
     <html lang="zh-CN" className="font-sans" suppressHydrationWarning>
       <head>
         {/* eslint-disable-next-line @next/next/no-sync-scripts */}
-        <script charSet="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+        {/* <script charSet="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `LA.init({id:"3PStZ7PjRj3F8Csb",ck:"3PStZ7PjRj3F8Csb"})`
           }}
-        />
+        /> */}
       </head>
       <body className="antialiased">
         <ErrorBoundary>
